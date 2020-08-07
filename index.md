@@ -4,15 +4,11 @@
 
 ## Check out some of my projects [here](https://github.com/johnwachter/johnwachter.github.io/blob/master/Statistical%20Significance%20Traffic%20Data.ipynb)
 
+{% for menu-item in site.data.menus.sidebar %}
 <ul>
-{% for member in site.data.members %}
-  <li>
-    <a href="https://github.com/{{ member.github }}">
-      {{ member.name }}
-    </a>
-  </li>
-{% endfor %}
+   <li>{{ menu-item.title}}</li>
 </ul>
+{% endfor %}
 
 ![cs](playlist--tojpeg_1437655202612_x1.jpg)
 
