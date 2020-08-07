@@ -7,7 +7,7 @@ Site navigation links
   url: /
 
 - title: Presentations
-  url: /presentations/
+  url: https://github.com/johnwachter/johnwachter.github.io/blob/master/Statistical%20Significance%20Traffic%20Data.ipynb
 
 - title: CV
   url: /cv/
